@@ -1,0 +1,50 @@
+@model IEnumerable<SampleASPMVC.Models.Car>
+@{
+    ViewData["Title"] = "Cars Page";
+    var cars = ViewBag.Cars1 as List<string>;
+}
+
+<div class="col-md-12">
+    <h2>List of Cars</h2>
+    <br>
+    <div class="col-md-6">
+        <form asp-action="Index" method="get" class="form-inline">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" id="search" name="search" placeholder="Search by Model or Fuel Type" />
+                <button type="submit" class="btn btn-primary">Search</button>
+            </div>
+        </form>
+        <br>
+    </div>
+        @Html.Raw(ViewBag.Message)
+        <a asp-action="Insert" class="btn btn-success btn-sm">Insert New Car</a>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Car ID</th>
+                    <th>VIN</th>
+                    <th>Model Type</th>
+                    <th>Fuel Type</th>
+                    <th>Base Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var car in Model)
+                {
+                    <tr>
+                        <td>@car.CarId</td>
+                        <td>@car.VIN</td>
+                        <td>@car.ModelType</td>
+                        <td>@car.FuelType</td>
+                        <td>@string.Format("Rp. {0:N0}", car.BasePrice)</td>
+                        <td>
+                            <a asp-action="Update" asp-route-id="@car.CarId" class="btn btn-warning btn-sm">Edit</a>
+                            <a asp-action="Delete" asp-route-id="@car.CarId" class="btn btn-danger btn-sm">Delete</a>  
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <br>
+
+</div>

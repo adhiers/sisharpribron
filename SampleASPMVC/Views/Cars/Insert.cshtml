@@ -1,0 +1,30 @@
+@{
+    ViewData["Title"] = "Insert";
+}
+
+<div class="col-md-6 offset-md-3">
+    <h1 class="display-4">Insert Car</h1>
+    <form action="/Cars/Insert" method="post">
+        <div class="form-group">
+            <label>Car ID:</label>
+            <input type="text" class="form-control" name="CarId" required />
+        </div> <br>
+        <div class="form-group">
+            <label>VIN:</label>
+            <input type="text" class="form-control" name="VIN" required />
+        </div> <br>
+        <div class="form-group">
+            <label>Model Type:</label>
+            <input type="text" class="form-control" name="ModelType" required />
+        </div> <br>
+        <div class="form-group">
+            <label>Fuel Type:</label>
+            <input type="text" class="form-control" name="FuelType" required />
+        </div> <br>
+        <div class="form-group">
+            <label>Base Price:</label>
+            <input type="number" class="form-control" name="BasePrice" required />
+        </div> <br>
+        <button type="submit" class="btn btn-primary">Insert</button>
+    </form>
+</div>
