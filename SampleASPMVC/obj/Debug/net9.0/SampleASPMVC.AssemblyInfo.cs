@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SampleASPMVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93c8fd27b73add30209e8f6f5232889eb93e28ed")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+50ffeafdc68568e86ab454d0d9ed356260ccb750")]
 [assembly: System.Reflection.AssemblyProductAttribute("SampleASPMVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SampleASPMVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

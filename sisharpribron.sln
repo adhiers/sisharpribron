@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleASPCore", "SampleASPC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleASPMVC", "SampleASPMVC\SampleASPMVC.csproj", "{292135B5-29D7-40F8-A402-97269F4D9F29}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleASPMVCEF", "SampleASPMVCEF\SampleASPMVCEF.csproj", "{54E7672B-98F5-4C1F-96CD-5E7BCDEF7306}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,18 @@ Global
 		{292135B5-29D7-40F8-A402-97269F4D9F29}.Release|x64.Build.0 = Release|Any CPU
 		{292135B5-29D7-40F8-A402-97269F4D9F29}.Release|x86.ActiveCfg = Release|Any CPU
 		{292135B5-29D7-40F8-A402-97269F4D9F29}.Release|x86.Build.0 = Release|Any CPU
+		{54E7672B-98F5-4C1F-96CD-5E7BCDEF7306}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54E7672B-98F5-4C1F-96CD-5E7BCDEF7306}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54E7672B-98F5-4C1F-96CD-5E7BCDEF7306}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{54E7672B-98F5-4C1F-96CD-5E7BCDEF7306}.Debug|x64.Build.0 = Debug|Any CPU
+		{54E7672B-98F5-4C1F-96CD-5E7BCDEF7306}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{54E7672B-98F5-4C1F-96CD-5E7BCDEF7306}.Debug|x86.Build.0 = Debug|Any CPU
+		{54E7672B-98F5-4C1F-96CD-5E7BCDEF7306}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54E7672B-98F5-4C1F-96CD-5E7BCDEF7306}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54E7672B-98F5-4C1F-96CD-5E7BCDEF7306}.Release|x64.ActiveCfg = Release|Any CPU
+		{54E7672B-98F5-4C1F-96CD-5E7BCDEF7306}.Release|x64.Build.0 = Release|Any CPU
+		{54E7672B-98F5-4C1F-96CD-5E7BCDEF7306}.Release|x86.ActiveCfg = Release|Any CPU
+		{54E7672B-98F5-4C1F-96CD-5E7BCDEF7306}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

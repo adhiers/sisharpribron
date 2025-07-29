@@ -1,5 +1,7 @@
 using Microsoft.Data.SqlClient;
 using Dapper;
+using System.Drawing;
+using System.Collections.Generic;
 using SampleASPMVC.Models;
 
 namespace SampleASPMVC.Services;
@@ -123,30 +125,32 @@ public class CarADOServices : ICar
     public IEnumerable<Car> GetAll()
     {
         // Implementation for retrieving all car records from the database
-        using(SqlConnection conn = new SqlConnection(GetConnStr()))
+        using (SqlConnection conn = new SqlConnection(GetConnStr()))
         {
-            conn.Open();
-            using(SqlCommand cmd = new SqlCommand("GetAllCars", conn))
-            {
-                cmd.CommandType = System.Data.CommandType.StoredProcedure;
-                using (SqlDataReader reader = cmd.ExecuteReader())
-                {
-                    List<Car> cars = new List<Car>();
-                    while (reader.Read())
-                    {
-                        Car car = new Car
-                        {
-                            CarId = reader["CarId"].ToString(),
-                            VIN = reader["VIN"].ToString(),
-                            ModelType = reader["ModelType"].ToString(),
-                            FuelType = reader["FuelType"].ToString(),
-                            BasePrice = Convert.ToDouble(reader["BasePrice"])
-                        };
-                        cars.Add(car);
-                    }
-                    return cars;
-                }
-            }
+            var cars = conn.Query<Car>("GetAllCars", commandType: System.Data.CommandType.StoredProcedure).ToList();
+            return cars;
+            // conn.Open();
+            // using(SqlCommand cmd = new SqlCommand("GetAllCars", conn))
+            // {
+            //     cmd.CommandType = System.Data.CommandType.StoredProcedure;
+            //     using (SqlDataReader reader = cmd.ExecuteReader())
+            //     {
+            //         List<Car> cars = new List<Car>();
+            //         while (reader.Read())
+            //         {
+            //             Car car = new Car
+            //             {
+            //                 CarId = reader["CarId"].ToString(),
+            //                 VIN = reader["VIN"].ToString(),
+            //                 ModelType = reader["ModelType"].ToString(),
+            //                 FuelType = reader["FuelType"].ToString(),
+            //                 BasePrice = Convert.ToDouble(reader["BasePrice"])
+            //             };
+            //             cars.Add(car);
+            //         }
+            //         return cars;
+            //     }
+            // }
         }
     }
 
@@ -154,30 +158,32 @@ public class CarADOServices : ICar
     {
         using (SqlConnection conn = new SqlConnection(GetConnStr()))
         {
-            conn.Open();
-            using (SqlCommand cmd = new SqlCommand("GetCarsByModelOrFuel", conn))
-            {
-                cmd.CommandType = System.Data.CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@ModelType", "%" + modelType + "%");
-                cmd.Parameters.AddWithValue("@FuelType", "%" + modelType + "%");
-                using (SqlDataReader reader = cmd.ExecuteReader())
-                {
-                    List<Car> cars = new List<Car>();
-                    while (reader.Read())
-                    {
-                        Car car = new Car
-                        {
-                            CarId = reader["CarId"].ToString(),
-                            VIN = reader["VIN"].ToString(),
-                            ModelType = reader["ModelType"].ToString(),
-                            FuelType = reader["FuelType"].ToString(),
-                            BasePrice = Convert.ToDouble(reader["BasePrice"])
-                        };
-                        cars.Add(car);
-                    }
-                    return cars;
-                }
-            }
+            var cars = conn.Query<Car>("GetCarsByModelOrFuel", new { ModelType = "%" + modelType + "%", FuelType = "%" + modelType + "%" }, commandType: System.Data.CommandType.StoredProcedure).ToList();
+            return cars;
+            // conn.Open();
+            // using (SqlCommand cmd = new SqlCommand("GetCarsByModelOrFuel", conn))
+            // {
+            //     cmd.CommandType = System.Data.CommandType.StoredProcedure;
+            //     cmd.Parameters.AddWithValue("@ModelType", "%" + modelType + "%");
+            //     cmd.Parameters.AddWithValue("@FuelType", "%" + modelType + "%");
+            //     using (SqlDataReader reader = cmd.ExecuteReader())
+            //     {
+            //         List<Car> cars = new List<Car>();
+            //         while (reader.Read())
+            //         {
+            //             Car car = new Car
+            //             {
+            //                 CarId = reader["CarId"].ToString(),
+            //                 VIN = reader["VIN"].ToString(),
+            //                 ModelType = reader["ModelType"].ToString(),
+            //                 FuelType = reader["FuelType"].ToString(),
+            //                 BasePrice = Convert.ToDouble(reader["BasePrice"])
+            //             };
+            //             cars.Add(car);
+            //         }
+            //         return cars;
+            //     }
+            // }
         }
     }
 }
