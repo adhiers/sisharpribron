@@ -1,4 +1,5 @@
 using Microsoft.Data.SqlClient;
+using Dapper;
 using SampleASPMVC.Models;
 
 namespace SampleASPMVC.Services;
@@ -48,8 +49,9 @@ public class CarADOServices : ICar
         using (SqlConnection conn = new SqlConnection(GetConnStr()))
         {
             conn.Open();
-            using(SqlCommand cmd = new SqlCommand("SELECT * FROM Car WHERE CarId = @CarId", conn))
+            using(SqlCommand cmd = new SqlCommand("GetCarById", conn))
             {
+                cmd.CommandType = System.Data.CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@CarId", carId);
                 using(SqlDataReader reader = cmd.ExecuteReader())
                 {
@@ -78,8 +80,9 @@ public class CarADOServices : ICar
         using (SqlConnection conn = new SqlConnection(GetConnStr()))
         {
             conn.Open();
-            using (SqlCommand cmd = new SqlCommand("UPDATE Car SET VIN = @VIN, ModelType = @ModelType, FuelType = @FuelType, BasePrice = @BasePrice WHERE CarId = @CarId", conn))
+            using (SqlCommand cmd = new SqlCommand("UpdateCarById", conn))
             {
+                cmd.CommandType = System.Data.CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@CarId", item.CarId);
                 cmd.Parameters.AddWithValue("@VIN", item.VIN);
                 cmd.Parameters.AddWithValue("@ModelType", item.ModelType);
@@ -104,8 +107,9 @@ public class CarADOServices : ICar
         using (SqlConnection conn = new SqlConnection(GetConnStr()))
         {
             conn.Open();
-            using (SqlCommand cmd = new SqlCommand("DELETE FROM Car WHERE CarId = @CarId", conn))
+            using (SqlCommand cmd = new SqlCommand("DeleteCarById", conn))
             {
+                cmd.CommandType = System.Data.CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@CarId", carId);
                 int rowsAffected = cmd.ExecuteNonQuery();
                 if (rowsAffected == 0)
@@ -122,12 +126,13 @@ public class CarADOServices : ICar
         using(SqlConnection conn = new SqlConnection(GetConnStr()))
         {
             conn.Open();
-            using(SqlCommand cmd = new SqlCommand("SELECT * FROM Car ORDER BY CarId asc", conn))
+            using(SqlCommand cmd = new SqlCommand("GetAllCars", conn))
             {
-                using(SqlDataReader reader = cmd.ExecuteReader())
+                cmd.CommandType = System.Data.CommandType.StoredProcedure;
+                using (SqlDataReader reader = cmd.ExecuteReader())
                 {
                     List<Car> cars = new List<Car>();
-                    while(reader.Read())
+                    while (reader.Read())
                     {
                         Car car = new Car
                         {
@@ -147,7 +152,32 @@ public class CarADOServices : ICar
 
     public IEnumerable<Car> GetByModel(string modelType)
     {
-        // Implementation for retrieving car records by model type from the database
-        throw new NotImplementedException();
+        using (SqlConnection conn = new SqlConnection(GetConnStr()))
+        {
+            conn.Open();
+            using (SqlCommand cmd = new SqlCommand("GetCarsByModelOrFuel", conn))
+            {
+                cmd.CommandType = System.Data.CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@ModelType", "%" + modelType + "%");
+                cmd.Parameters.AddWithValue("@FuelType", "%" + modelType + "%");
+                using (SqlDataReader reader = cmd.ExecuteReader())
+                {
+                    List<Car> cars = new List<Car>();
+                    while (reader.Read())
+                    {
+                        Car car = new Car
+                        {
+                            CarId = reader["CarId"].ToString(),
+                            VIN = reader["VIN"].ToString(),
+                            ModelType = reader["ModelType"].ToString(),
+                            FuelType = reader["FuelType"].ToString(),
+                            BasePrice = Convert.ToDouble(reader["BasePrice"])
+                        };
+                        cars.Add(car);
+                    }
+                    return cars;
+                }
+            }
+        }
     }
 }
