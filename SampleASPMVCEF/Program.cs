@@ -1,14 +1,19 @@
 using Microsoft.EntityFrameworkCore;
 using SampleASPMVCEF.DAL;
+using SampleASPMVCEF.Models;
+using SampleASPMVCEF.ViewModels;
+using Microsoft.AspNetCore.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
+builder.Services.AddDbContext<FinalProjectContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("FinalProjectConnectionString")));
 builder.Services.AddScoped<ICar, CarDAL>();
+builder.Services.AddScoped<IDealer, DealerDAL>();
+builder.Services.AddScoped<IDealerCar, DealerCarDAL>();
 
 var app = builder.Build();
 

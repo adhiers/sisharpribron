@@ -6,8 +6,8 @@ namespace SampleASPMVCEF.DAL;
 
 public class CarDAL : ICar
 {
-    private readonly ApplicationDbContext _context;
-    public CarDAL(ApplicationDbContext context)
+    private readonly FinalProjectContext _context;
+    public CarDAL(FinalProjectContext context)
     {
         _context = context;
     }
@@ -18,7 +18,7 @@ public class CarDAL : ICar
             // var cars = from c in _context.Car
             //            where c.ModelType.Contains(modelType) || c.FuelType.Contains(modelType)
             //            select c;
-            var results = _context.Car
+            var results = _context.Cars
                 .Where(c => c.ModelType.Contains(modelType) || c.FuelType.Contains(modelType))
                 .OrderBy(c => c.CarId).ToList();
             return results;
@@ -33,7 +33,7 @@ public class CarDAL : ICar
     {
         try
         {
-            _context.Car.Add(item);
+            _context.Cars.Add(item);
             _context.SaveChanges();
             return item;
         }
@@ -45,7 +45,7 @@ public class CarDAL : ICar
 
     public Car GetById(string id)
     {
-       var result = _context.Car.Where(c => c.CarId == id).FirstOrDefault();
+       var result = _context.Cars.Where(c => c.CarId == id).FirstOrDefault();
         if (result == null)
         {
             throw new Exception("Car not found");
@@ -81,7 +81,7 @@ public class CarDAL : ICar
         }
         try
         {
-            _context.Car.Remove(car);
+            _context.Cars.Remove(car);
             _context.SaveChanges();
         }
         catch (Exception ex)
@@ -93,7 +93,7 @@ public class CarDAL : ICar
     public IEnumerable<Car> GetAll()
     {
         // List<Car> cars = _context.Car.ToList();
-        var cars = from c in _context.Car orderby c.CarId ascending select c;
+        var cars = from c in _context.Cars orderby c.CarId ascending select c;
         return cars;
     }
 

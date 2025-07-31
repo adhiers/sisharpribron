@@ -227,3 +227,4 @@ D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\SampleASPMVCEF\obj
 D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\SampleASPMVCEF\obj\Debug\net9.0\SampleASPMVCEF.pdb
 D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\SampleASPMVCEF\obj\Debug\net9.0\SampleASPMVCEF.genruntimeconfig.cache
 D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\SampleASPMVCEF\obj\Debug\net9.0\ref\SampleASPMVCEF.dll
+D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\SampleASPMVCEF\bin\Debug\net9.0\efpt.config.json

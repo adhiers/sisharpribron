@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SampleASPCore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+50ffeafdc68568e86ab454d0d9ed356260ccb750")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f2c5d0de1e88c951dc74d9e5aadcb39a2cbae23")]
 [assembly: System.Reflection.AssemblyProductAttribute("SampleASPCore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SampleASPCore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

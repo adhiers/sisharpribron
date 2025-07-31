@@ -10,14 +10,14 @@
         "projectUniqueName": "D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\SampleASPMVC\\SampleASPMVC.csproj",
         "projectName": "SampleASPMVC",
         "projectPath": "D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\SampleASPMVC\\SampleASPMVC.csproj",
-        "packagesPath": "D:\\Users\\Administrator\\.nuget\\packages\\",
+        "packagesPath": "D:\\Users\\bsi80259\\.nuget\\packages\\",
         "outputPath": "D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\SampleASPMVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "D:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Users\\bsi80259\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

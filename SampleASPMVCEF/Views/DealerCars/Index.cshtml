@@ -1,0 +1,48 @@
+@model IEnumerable<SampleASPMVCEF.ViewModels.DealerCarViewModel>;
+@{
+    ViewData["Title"] = "Cars in Dealer";
+}
+
+<div class="col-md-12">
+    <h2>Cars Lists</h2><br><br>
+
+    @if (ViewBag.Message != null)
+    {
+        @Html.Raw(ViewBag.Message)
+    }
+    <div class="mb-3">
+        <a asp-action="Create" class="btn btn-primary btn-sm">Add New</a>
+    </div>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>DealerCarId</th>
+                <th>CarId</th>
+                <th>DealerId</th>
+                <th>DealerName</th>
+                <th>ModelType</th>
+                <th>Stock</th>
+                <th>DealerCarPrice</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.DealerCarId</td>
+                    <td>@item.CarId</td>
+                    <td>@item.DealerId</td>
+                    <td>@item.DealerName</td>
+                    <td>@item.ModelType</td>
+                    <td>@item.Stock</td>
+                    <td>@string.Format("Rp. {0:N0}", item.DealerCarPrice)</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.DealerCarId" class="btn btn-warning btn-sm">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@item.DealerCarId" class="btn btn-danger btn-sm">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

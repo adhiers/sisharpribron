@@ -1,0 +1,46 @@
+@model SampleASPMVCEF.ViewModels.DealerCarInsertViewModel;
+@{
+    ViewData["Title"] = "Create Dealer Car";
+}
+
+<div class="col-md-4">
+    <h3>Insert Dealer Car</h3>
+    <form asp-action="Create" method="post">
+        <div asp-validation-summary="All" class="text-danger"></div>
+        <div class="mb-3">
+            <label asp-for="DealerCarId" class="form-label">Dealer Car ID</label>
+            <input asp-for="DealerCarId" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="DealerId" class="form-label"></label>
+            <select asp-for="DealerId" class="form-select" asp-items="ViewBag.Dealers"></select>
+        </div>
+        <div class="mb-3">
+            <label asp-for="CarId" class="form-label"></label>
+            <select asp-for="CarId" class="form-select" asp-items="ViewBag.Cars"></select>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Stock" class="form-label">Stock</label>
+            <input asp-for="Stock" type="number" class="form-control" />
+            <span asp-validation-for="Stock" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="DealerCarPrice" class="form-label"></label>
+            <input asp-for="DealerCarPrice" type="number" class="form-control" />
+            <span asp-validation-for="DealerCarPrice" class="text-danger"></span>
+        </div>
+        @* <div class="mb-3">
+            <label asp-for="ModelType" class="form-label"></label>
+            <input asp-for="ModelType" class="form-control" />
+            <span asp-validation-for="ModelType" class="text-danger"></span>
+        </div> *@
+        <div class="mb-3">
+            <button type="submit" class="btn btn-primary">Create</button>
+            <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
