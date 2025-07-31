@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sisharpriborn.BO", "sisharp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sisharpriborn.BL", "sisharpriborn.BL\sisharpriborn.BL.csproj", "{FBD619A8-68F3-44F4-83D0-0FCF5F200E2F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sisharpriborn.API", "sisharpriborn.API\sisharpriborn.API.csproj", "{03D40916-8EF4-4B9B-8C9F-0A9BE6C43A8B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,6 +99,18 @@ Global
 		{FBD619A8-68F3-44F4-83D0-0FCF5F200E2F}.Release|x64.Build.0 = Release|Any CPU
 		{FBD619A8-68F3-44F4-83D0-0FCF5F200E2F}.Release|x86.ActiveCfg = Release|Any CPU
 		{FBD619A8-68F3-44F4-83D0-0FCF5F200E2F}.Release|x86.Build.0 = Release|Any CPU
+		{03D40916-8EF4-4B9B-8C9F-0A9BE6C43A8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03D40916-8EF4-4B9B-8C9F-0A9BE6C43A8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03D40916-8EF4-4B9B-8C9F-0A9BE6C43A8B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{03D40916-8EF4-4B9B-8C9F-0A9BE6C43A8B}.Debug|x64.Build.0 = Debug|Any CPU
+		{03D40916-8EF4-4B9B-8C9F-0A9BE6C43A8B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{03D40916-8EF4-4B9B-8C9F-0A9BE6C43A8B}.Debug|x86.Build.0 = Debug|Any CPU
+		{03D40916-8EF4-4B9B-8C9F-0A9BE6C43A8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03D40916-8EF4-4B9B-8C9F-0A9BE6C43A8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03D40916-8EF4-4B9B-8C9F-0A9BE6C43A8B}.Release|x64.ActiveCfg = Release|Any CPU
+		{03D40916-8EF4-4B9B-8C9F-0A9BE6C43A8B}.Release|x64.Build.0 = Release|Any CPU
+		{03D40916-8EF4-4B9B-8C9F-0A9BE6C43A8B}.Release|x86.ActiveCfg = Release|Any CPU
+		{03D40916-8EF4-4B9B-8C9F-0A9BE6C43A8B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

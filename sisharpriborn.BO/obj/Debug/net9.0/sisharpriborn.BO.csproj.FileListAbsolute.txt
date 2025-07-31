@@ -1,0 +1,12 @@
+D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.BO\bin\Debug\net9.0\sisharpriborn.BO.deps.json
+D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.BO\bin\Debug\net9.0\sisharpriborn.BO.dll
+D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.BO\bin\Debug\net9.0\sisharpriborn.BO.pdb
+D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.BO\obj\Debug\net9.0\sisharpriborn.BO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.BO\obj\Debug\net9.0\sisharpriborn.BO.AssemblyInfoInputs.cache
+D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.BO\obj\Debug\net9.0\sisharpriborn.BO.AssemblyInfo.cs
+D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.BO\obj\Debug\net9.0\sisharpriborn.BO.csproj.CoreCompileInputs.cache
+D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.BO\obj\Debug\net9.0\sisharpriborn.BO.sourcelink.json
+D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.BO\obj\Debug\net9.0\sisharpriborn.BO.dll
+D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.BO\obj\Debug\net9.0\refint\sisharpriborn.BO.dll
+D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.BO\obj\Debug\net9.0\sisharpriborn.BO.pdb
+D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.BO\obj\Debug\net9.0\ref\sisharpriborn.BO.dll

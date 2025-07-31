@@ -1601,6 +1601,16 @@
             "rid": "win"
           }
         }
+      },
+      "sisharpriborn.BO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/sisharpriborn.BO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/sisharpriborn.BO.dll": {}
+        }
       }
     }
   },
@@ -4704,6 +4714,11 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "sisharpriborn.BO/1.0.0": {
+      "type": "project",
+      "path": "../sisharpriborn.BO/sisharpriborn.BO.csproj",
+      "msbuildProject": "../sisharpriborn.BO/sisharpriborn.BO.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4711,7 +4726,9 @@
       "Microsoft.EntityFrameworkCore >= 9.0.7",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.7",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.7",
-      "Microsoft.EntityFrameworkCore.Tools >= 9.0.7"
+      "Microsoft.EntityFrameworkCore.Tools >= 9.0.7",
+      "Microsoft.Extensions.DependencyInjection.Abstractions >= 9.0.7",
+      "sisharpriborn.BO >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4746,7 +4763,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\sisharpriborn.BO\\sisharpriborn.BO.csproj": {
+              "projectPath": "D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\sisharpriborn.BO\\sisharpriborn.BO.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -4778,6 +4799,10 @@
             "version": "[9.0.7, )"
           },
           "Microsoft.EntityFrameworkCore.Tools": {
+            "target": "Package",
+            "version": "[9.0.7, )"
+          },
+          "Microsoft.Extensions.DependencyInjection.Abstractions": {
             "target": "Package",
             "version": "[9.0.7, )"
           }

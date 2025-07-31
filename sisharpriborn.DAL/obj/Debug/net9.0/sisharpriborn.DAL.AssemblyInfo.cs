@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("sisharpriborn.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f2c5d0de1e88c951dc74d9e5aadcb39a2cbae23")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf178aa91ef6adcd09d264d7b5258ebfa6fa6d7b")]
 [assembly: System.Reflection.AssemblyProductAttribute("sisharpriborn.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("sisharpriborn.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -12,6 +12,7 @@ D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\SampleASPCore\obj\
 D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\SampleASPCore\obj\Debug\net9.0\SampleASPCore.AssemblyInfo.cs
 D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\SampleASPCore\obj\Debug\net9.0\SampleASPCore.csproj.CoreCompileInputs.cache
 D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\SampleASPCore\obj\Debug\net9.0\SampleASPCore.MvcApplicationPartsAssemblyInfo.cache
+D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\SampleASPCore\obj\Debug\net9.0\SampleASPCore.sourcelink.json
 D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\SampleASPCore\obj\Debug\net9.0\rjimswa.dswa.cache.json
 D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\SampleASPCore\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
 D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\SampleASPCore\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json

@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v9.0": {
       "SampleASPMVC/1.0.0": {
         "dependencies": {
+          "Dapper": "2.1.66",
           "Microsoft.Data.SqlClient": "6.1.0"
         },
         "runtime": {
@@ -44,6 +45,14 @@
           "lib/net8.0/Azure.Identity.dll": {
             "assemblyVersion": "1.13.2.0",
             "fileVersion": "1.1300.225.6404"
+          }
+        }
+      },
+      "Dapper/2.1.66": {
+        "runtime": {
+          "lib/net8.0/Dapper.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.1.66.48463"
           }
         }
       },
@@ -441,6 +450,13 @@
       "sha512": "sha512-CngQVQELdzFmsGSWyGIPIUOCrII7nApMVWxVmJCKQQrWxRXcNquCsZ+njRJRnhFUfD+KMAhpjyRCaceE4EOL6A==",
       "path": "azure.identity/1.13.2",
       "hashPath": "azure.identity.1.13.2.nupkg.sha512"
+    },
+    "Dapper/2.1.66": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/q77jUgDOS+bzkmk3Vy9SiWMaetTw+NOoPAV0xPBsGVAyljd5S6P+4RUW7R3ZUGGr9lDRyPKgAMj2UAOwvqZYw==",
+      "path": "dapper/2.1.66",
+      "hashPath": "dapper.2.1.66.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
       "type": "package",
