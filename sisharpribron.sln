@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sisharpriborn.BL", "sisharp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sisharpriborn.API", "sisharpriborn.API\sisharpriborn.API.csproj", "{03D40916-8EF4-4B9B-8C9F-0A9BE6C43A8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sisharpriborn.WebFormClient", "sisharpriborn.WebFormClient\sisharpriborn.WebFormClient.csproj", "{57C412BE-9B58-4B2C-B70F-2C7596C5C397}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sisharpriborn.ASPCoreCilent", "sisharpriborn.WebFormClient\sisharpriborn.ASPCoreCilent.csproj", "{57C412BE-9B58-4B2C-B70F-2C7596C5C397}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sisharpriborn.WebFormClientRil", "sisharpriborn.WebFormClientRil\sisharpriborn.WebFormClientRil.csproj", "{05E64909-8E66-4263-81B3-FC5B37217F96}"
 EndProject

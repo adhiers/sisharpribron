@@ -10,14 +10,14 @@
         "projectUniqueName": "D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\sisharpriborn.BL\\sisharpriborn.BL.csproj",
         "projectName": "sisharpriborn.BL",
         "projectPath": "D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\sisharpriborn.BL\\sisharpriborn.BL.csproj",
-        "packagesPath": "D:\\Users\\bsi80259\\.nuget\\packages\\",
+        "packagesPath": "D:\\Users\\Administrator\\.nuget\\packages\\",
         "outputPath": "D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\sisharpriborn.BL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "D:\\Users\\bsi80259\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -97,14 +97,14 @@
         "projectUniqueName": "D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\sisharpriborn.BO\\sisharpriborn.BO.csproj",
         "projectName": "sisharpriborn.BO",
         "projectPath": "D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\sisharpriborn.BO\\sisharpriborn.BO.csproj",
-        "packagesPath": "D:\\Users\\bsi80259\\.nuget\\packages\\",
+        "packagesPath": "D:\\Users\\Administrator\\.nuget\\packages\\",
         "outputPath": "D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\sisharpriborn.BO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "D:\\Users\\bsi80259\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -163,14 +163,14 @@
         "projectUniqueName": "D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\sisharpriborn.DAL\\sisharpriborn.DAL.csproj",
         "projectName": "sisharpriborn.DAL",
         "projectPath": "D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\sisharpriborn.DAL\\sisharpriborn.DAL.csproj",
-        "packagesPath": "D:\\Users\\bsi80259\\.nuget\\packages\\",
+        "packagesPath": "D:\\Users\\Administrator\\.nuget\\packages\\",
         "outputPath": "D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\sisharpriborn.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "D:\\Users\\bsi80259\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

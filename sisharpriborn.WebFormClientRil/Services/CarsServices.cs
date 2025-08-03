@@ -41,7 +41,7 @@ namespace sisharpriborn.WebFormClientRil.Services
             }
         }
 
-        public async Task<Car> GetCar(int id)
+        public async Task<Car> GetCar(string id)
         {
             try
             {
@@ -109,7 +109,7 @@ namespace sisharpriborn.WebFormClientRil.Services
             }
         }
 
-        public async Task DeleteCar(int id)
+        public async Task DeleteCar(string id)
         {
             try
             {

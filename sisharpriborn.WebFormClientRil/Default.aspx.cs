@@ -14,7 +14,7 @@ namespace sisharpriborn.WebFormClientRil
     {
         private CarsServices _carsService = new CarsServices();
 
-        private async Task FillForms(int carId)
+        private async Task FillForms(string carId)
         {
             var car = await _carsService.GetCar(carId);
             if (car != null)
@@ -23,7 +23,7 @@ namespace sisharpriborn.WebFormClientRil
                 txtVIN.Text = car.VIN;
                 txtModelType.Text = car.ModelType;
                 txtFuelType.Text = car.FuelType;
-                txtBasePrice.Text = car.BasePrice.HasValue ? car.BasePrice.Value.ToString("N0") : string.Empty;
+                txtBasePrice.Text = car.BasePrice.ToString("N0");
             }
         }
 
@@ -51,7 +51,7 @@ namespace sisharpriborn.WebFormClientRil
                 var carId = Request.QueryString["CarId"];
                 if (!string.IsNullOrEmpty(carId))
                 {
-                    await FillForms(int.Parse(carId));
+                    await FillForms(carId);
                 }
 
                 await FillGridView();
@@ -68,34 +68,33 @@ namespace sisharpriborn.WebFormClientRil
             try
             {
                 //add car
-                if (!btnAdd.Enabled && txtModel.Text == string.Empty)
+                if (!btnAdd.Enabled && txtModelType.Text == string.Empty)
                 {
                     var newCar = new CarInsert
                     {
-                        Model = txtModel.Text,
-                        Type = txtType.Text,
-                        BasePrice = Convert.ToDouble(txtBasePrice.Text),
-                        Color = txtColor.Text,
-                        Stock = Convert.ToInt32(txtStock.Text)
+                        CarId = txtCarId.Text,
+                        VIN = txtVIN.Text,
+                        ModelType = txtModelType.Text,
+                        FuelType = txtFuelType.Text,
+                        BasePrice = Convert.ToDouble(txtBasePrice.Text)
                     };
                     var result = await _carsService.AddCar(newCar);
                     btnAdd.Enabled = true;
                     ClearForms();
-                    ltMessage.Text = $"<span class='alert alert-success'>Add Car {result.Model} success !</span>";
+                    ltMessage.Text = $"<span class='alert alert-success'>Add Car {result.VIN} success !</span>";
                 }
                 else //update car
                 {
                     var updateCar = new CarUpdate
                     {
-                        CarId = int.Parse(hfCarId.Value),
-                        Model = txtModel.Text,
-                        Type = txtType.Text,
+                        CarId = txtCarId.Text,
+                        VIN = txtVIN.Text,
+                        ModelType = txtModelType.Text,
+                        FuelType = txtFuelType.Text,
                         BasePrice = Convert.ToDouble(txtBasePrice.Text),
-                        Color = txtColor.Text,
-                        Stock = Convert.ToInt32(txtStock.Text)
                     };
                     var result = await _carsService.UpdateCar(updateCar);
-                    ltMessage.Text = $"<span class='alert alert-success'>Update Car {result.Model} success !</span>";
+                    ltMessage.Text = $"<span class='alert alert-success'>Update Car {result.VIN} success !</span>";
                 }
             }
             catch (Exception ex)
@@ -113,7 +112,7 @@ namespace sisharpriborn.WebFormClientRil
         {
             try
             {
-                var carId = int.Parse(hfCarId.Value);
+                var carId = txtCarId.Text;
                 await _carsService.DeleteCar(carId);
                 ltMessage.Text = $"<span class='alert alert-success'>Delete Car {carId} success !</span>";
 

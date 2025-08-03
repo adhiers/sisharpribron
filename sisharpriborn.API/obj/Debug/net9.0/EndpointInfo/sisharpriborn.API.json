@@ -1,0 +1,912 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "sisharpriborn.API",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Cars": {
+      "get": {
+        "tags": [
+          "Cars"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CarDTO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CarDTO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CarDTO"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Cars"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CarInsertDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CarInsertDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CarInsertDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/CarDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CarDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CarDTO"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Cars/{id}": {
+      "get": {
+        "tags": [
+          "Cars"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/CarDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CarDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CarDTO"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Cars"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CarUpdateDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CarUpdateDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CarUpdateDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/CarDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CarDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CarDTO"
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Cars"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Cars/BySearch": {
+      "get": {
+        "tags": [
+          "Cars"
+        ],
+        "parameters": [
+          {
+            "name": "search",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CarDTO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CarDTO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CarDTO"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/DealerCars": {
+      "get": {
+        "tags": [
+          "DealerCars"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/DealerCarDTO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/DealerCarDTO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/DealerCarDTO"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "DealerCars"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DealerCarInsertDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DealerCarInsertDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DealerCarInsertDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/DealerCarDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DealerCarDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DealerCarDTO"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/DealerCars/{id}": {
+      "get": {
+        "tags": [
+          "DealerCars"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/DealerCarDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DealerCarDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DealerCarDTO"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "DealerCars"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DealerCarUpdateDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DealerCarUpdateDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DealerCarUpdateDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/DealerCarDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DealerCarDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DealerCarDTO"
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "DealerCars"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Dealers": {
+      "get": {
+        "tags": [
+          "Dealers"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/DealerDTO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/DealerDTO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/DealerDTO"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Dealers"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DealerInsertDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DealerInsertDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DealerInsertDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/DealerDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DealerDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DealerDTO"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Dealers/{id}": {
+      "get": {
+        "tags": [
+          "Dealers"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/DealerDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DealerDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DealerDTO"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Dealers"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DealerUpdateDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DealerUpdateDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DealerUpdateDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/DealerDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DealerDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DealerDTO"
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Dealers"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "CarDTO": {
+        "type": "object",
+        "properties": {
+          "CarId": {
+            "type": "string",
+            "nullable": true
+          },
+          "VIN": {
+            "type": "string",
+            "nullable": true
+          },
+          "ModelType": {
+            "type": "string",
+            "nullable": true
+          },
+          "FuelType": {
+            "type": "string",
+            "nullable": true
+          },
+          "BasePrice": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CarInsertDTO": {
+        "type": "object",
+        "properties": {
+          "CarId": {
+            "type": "string",
+            "nullable": true
+          },
+          "VIN": {
+            "type": "string",
+            "nullable": true
+          },
+          "ModelType": {
+            "type": "string",
+            "nullable": true
+          },
+          "FuelType": {
+            "type": "string",
+            "nullable": true
+          },
+          "BasePrice": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CarUpdateDTO": {
+        "type": "object",
+        "properties": {
+          "CarId": {
+            "type": "string",
+            "nullable": true
+          },
+          "VIN": {
+            "type": "string",
+            "nullable": true
+          },
+          "ModelType": {
+            "type": "string",
+            "nullable": true
+          },
+          "FuelType": {
+            "type": "string",
+            "nullable": true
+          },
+          "BasePrice": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "DealerCarDTO": {
+        "type": "object",
+        "properties": {
+          "DealerCarId": {
+            "type": "string",
+            "nullable": true
+          },
+          "CarId": {
+            "type": "string",
+            "nullable": true
+          },
+          "DealerId": {
+            "type": "string",
+            "nullable": true
+          },
+          "Stock": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "DealerCarPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "Car": {
+            "$ref": "#/components/schemas/CarDTO"
+          },
+          "Dealer": {
+            "$ref": "#/components/schemas/DealerDTO"
+          }
+        },
+        "additionalProperties": false
+      },
+      "DealerCarInsertDTO": {
+        "type": "object",
+        "properties": {
+          "DealerCarId": {
+            "type": "string",
+            "nullable": true
+          },
+          "CarId": {
+            "type": "string",
+            "nullable": true
+          },
+          "DealerId": {
+            "type": "string",
+            "nullable": true
+          },
+          "Stock": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "DealerCarPrice": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "DealerCarUpdateDTO": {
+        "type": "object",
+        "properties": {
+          "DealerCarId": {
+            "type": "string",
+            "nullable": true
+          },
+          "CarId": {
+            "type": "string",
+            "nullable": true
+          },
+          "DealerId": {
+            "type": "string",
+            "nullable": true
+          },
+          "Stock": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "DealerCarPrice": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "DealerDTO": {
+        "type": "object",
+        "properties": {
+          "DealerId": {
+            "type": "string",
+            "nullable": true
+          },
+          "DealerName": {
+            "type": "string",
+            "nullable": true
+          },
+          "DealerAddress": {
+            "type": "string",
+            "nullable": true
+          },
+          "City": {
+            "type": "string",
+            "nullable": true
+          },
+          "Province": {
+            "type": "string",
+            "nullable": true
+          },
+          "TaxRate": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "DealerInsertDTO": {
+        "type": "object",
+        "properties": {
+          "DealerId": {
+            "type": "string",
+            "nullable": true
+          },
+          "DealerName": {
+            "type": "string",
+            "nullable": true
+          },
+          "DealerAddress": {
+            "type": "string",
+            "nullable": true
+          },
+          "City": {
+            "type": "string",
+            "nullable": true
+          },
+          "Province": {
+            "type": "string",
+            "nullable": true
+          },
+          "TaxRate": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "DealerUpdateDTO": {
+        "type": "object",
+        "properties": {
+          "DealerId": {
+            "type": "string",
+            "nullable": true
+          },
+          "DealerName": {
+            "type": "string",
+            "nullable": true
+          },
+          "DealerAddress": {
+            "type": "string",
+            "nullable": true
+          },
+          "City": {
+            "type": "string",
+            "nullable": true
+          },
+          "Province": {
+            "type": "string",
+            "nullable": true
+          },
+          "TaxRate": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

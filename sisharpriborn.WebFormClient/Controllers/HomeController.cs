@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
-using sisharpriborn.WebFormClient.Models;
+using sisharpriborn.ASPCoreClient.Models;
 using System.Diagnostics;
 
-namespace sisharpriborn.WebFormClient.Controllers
+namespace sisharpriborn.ASPCoreClient.Controllers
 {
     public class HomeController : Controller
     {

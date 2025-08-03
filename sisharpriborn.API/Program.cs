@@ -1,6 +1,7 @@
 using sisharpriborn.DAL;
 using sisharpriborn.BL.Extensions;
 using Microsoft.EntityFrameworkCore;
+using sisharpriborn.BL.Profiles;
 
 var builder = WebApplication.CreateBuilder(args);
 

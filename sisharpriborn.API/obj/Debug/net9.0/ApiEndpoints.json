@@ -1,0 +1,385 @@
+[
+  {
+    "ContainingType": "sisharpriborn.API.Controllers.CarsController",
+    "Method": "GetCars",
+    "RelativePath": "api/Cars",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[sisharpriborn.BL.DTO.CarDTO, sisharpriborn.BL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "sisharpriborn.API.Controllers.CarsController",
+    "Method": "AddCar",
+    "RelativePath": "api/Cars",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "carInsertDto",
+        "Type": "sisharpriborn.BL.DTO.CarInsertDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "sisharpriborn.BL.DTO.CarDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "sisharpriborn.API.Controllers.CarsController",
+    "Method": "GetCarById",
+    "RelativePath": "api/Cars/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "sisharpriborn.BL.DTO.CarDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "sisharpriborn.API.Controllers.CarsController",
+    "Method": "UpdateCar",
+    "RelativePath": "api/Cars/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "carUpdateDto",
+        "Type": "sisharpriborn.BL.DTO.CarUpdateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "sisharpriborn.BL.DTO.CarDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "sisharpriborn.API.Controllers.CarsController",
+    "Method": "DeleteCar",
+    "RelativePath": "api/Cars/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisharpriborn.API.Controllers.CarsController",
+    "Method": "GetCarsBySearch",
+    "RelativePath": "api/Cars/BySearch",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[sisharpriborn.BL.DTO.CarDTO, sisharpriborn.BL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "sisharpriborn.API.Controllers.DealerCarsController",
+    "Method": "Get",
+    "RelativePath": "api/DealerCars",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[sisharpriborn.BL.DTO.DealerCarDTO, sisharpriborn.BL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "sisharpriborn.API.Controllers.DealerCarsController",
+    "Method": "Post",
+    "RelativePath": "api/DealerCars",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dealerCarInsertDTO",
+        "Type": "sisharpriborn.BL.DTO.DealerCarInsertDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "sisharpriborn.BL.DTO.DealerCarDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "sisharpriborn.API.Controllers.DealerCarsController",
+    "Method": "Get",
+    "RelativePath": "api/DealerCars/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "sisharpriborn.BL.DTO.DealerCarDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "sisharpriborn.API.Controllers.DealerCarsController",
+    "Method": "Put",
+    "RelativePath": "api/DealerCars/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "dealerCarUpdateDTO",
+        "Type": "sisharpriborn.BL.DTO.DealerCarUpdateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "sisharpriborn.BL.DTO.DealerCarDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "sisharpriborn.API.Controllers.DealerCarsController",
+    "Method": "Delete",
+    "RelativePath": "api/DealerCars/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisharpriborn.API.Controllers.DealersController",
+    "Method": "GetDealers",
+    "RelativePath": "api/Dealers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[sisharpriborn.BL.DTO.DealerDTO, sisharpriborn.BL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "sisharpriborn.API.Controllers.DealersController",
+    "Method": "CreateDealer",
+    "RelativePath": "api/Dealers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dealerInsertDTO",
+        "Type": "sisharpriborn.BL.DTO.DealerInsertDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "sisharpriborn.BL.DTO.DealerDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "sisharpriborn.API.Controllers.DealersController",
+    "Method": "GetDealer",
+    "RelativePath": "api/Dealers/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "sisharpriborn.BL.DTO.DealerDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "sisharpriborn.API.Controllers.DealersController",
+    "Method": "UpdateDealer",
+    "RelativePath": "api/Dealers/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "dealerUpdateDTO",
+        "Type": "sisharpriborn.BL.DTO.DealerUpdateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "sisharpriborn.BL.DTO.DealerDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "sisharpriborn.API.Controllers.DealersController",
+    "Method": "DeleteDealer",
+    "RelativePath": "api/Dealers/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

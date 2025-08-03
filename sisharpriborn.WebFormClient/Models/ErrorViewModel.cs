@@ -1,4 +1,4 @@
-namespace sisharpriborn.WebFormClient.Models
+namespace sisharpriborn.ASPCoreClient.Models
 {
     public class ErrorViewModel
     {

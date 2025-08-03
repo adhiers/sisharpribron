@@ -170,3 +170,4 @@ D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.API\
 D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.API\obj\Debug\net9.0\sisharpriborn.API.pdb
 D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.API\obj\Debug\net9.0\sisharpriborn.API.genruntimeconfig.cache
 D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.API\obj\Debug\net9.0\ref\sisharpriborn.API.dll
+D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.API\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

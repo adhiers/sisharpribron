@@ -3,8 +3,56 @@
   "WorkspaceRootPath": "D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\SampleASPMVCEF\\Models\\FinalProjectContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SampleASPMVCEF\\Models\\FinalProjectContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FBD619A8-68F3-44F4-83D0-0FCF5F200E2F}|sisharpriborn.BL\\sisharpriborn.BL.csproj|d:\\users\\bsi80259\\butkemriborn\\external trainer\\sisharpribron\\sisharpriborn.bl\\dealercarbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBD619A8-68F3-44F4-83D0-0FCF5F200E2F}|sisharpriborn.BL\\sisharpriborn.BL.csproj|solutionrelative:sisharpriborn.bl\\dealercarbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBD619A8-68F3-44F4-83D0-0FCF5F200E2F}|sisharpriborn.BL\\sisharpriborn.BL.csproj|d:\\users\\bsi80259\\butkemriborn\\external trainer\\sisharpribron\\sisharpriborn.bl\\idealercarbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBD619A8-68F3-44F4-83D0-0FCF5F200E2F}|sisharpriborn.BL\\sisharpriborn.BL.csproj|solutionrelative:sisharpriborn.bl\\idealercarbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03D40916-8EF4-4B9B-8C9F-0A9BE6C43A8B}|sisharpriborn.API\\sisharpriborn.API.csproj|d:\\users\\bsi80259\\butkemriborn\\external trainer\\sisharpribron\\sisharpriborn.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03D40916-8EF4-4B9B-8C9F-0A9BE6C43A8B}|sisharpriborn.API\\sisharpriborn.API.csproj|solutionrelative:sisharpriborn.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05E64909-8E66-4263-81B3-FC5B37217F96}|sisharpriborn.WebFormClientRil\\sisharpriborn.WebFormClientRil.csproj|D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\sisharpriborn.webformclientril\\services\\carsservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05E64909-8E66-4263-81B3-FC5B37217F96}|sisharpriborn.WebFormClientRil\\sisharpriborn.WebFormClientRil.csproj|solutionrelative:sisharpriborn.webformclientril\\services\\carsservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05E64909-8E66-4263-81B3-FC5B37217F96}|sisharpriborn.WebFormClientRil\\sisharpriborn.WebFormClientRil.csproj|d:\\users\\bsi80259\\butkemriborn\\external trainer\\sisharpribron\\sisharpriborn.webformclientril\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05E64909-8E66-4263-81B3-FC5B37217F96}|sisharpriborn.WebFormClientRil\\sisharpriborn.WebFormClientRil.csproj|solutionrelative:sisharpriborn.webformclientril\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03D40916-8EF4-4B9B-8C9F-0A9BE6C43A8B}|sisharpriborn.API\\sisharpriborn.API.csproj|d:\\users\\bsi80259\\butkemriborn\\external trainer\\sisharpribron\\sisharpriborn.api\\sisharpriborn.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{03D40916-8EF4-4B9B-8C9F-0A9BE6C43A8B}|sisharpriborn.API\\sisharpriborn.API.csproj|solutionrelative:sisharpriborn.api\\sisharpriborn.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05E64909-8E66-4263-81B3-FC5B37217F96}|sisharpriborn.WebFormClientRil\\sisharpriborn.WebFormClientRil.csproj|d:\\users\\bsi80259\\butkemriborn\\external trainer\\sisharpribron\\sisharpriborn.webformclientril\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{05E64909-8E66-4263-81B3-FC5B37217F96}|sisharpriborn.WebFormClientRil\\sisharpriborn.WebFormClientRil.csproj|solutionrelative:sisharpriborn.webformclientril\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05E64909-8E66-4263-81B3-FC5B37217F96}|sisharpriborn.WebFormClientRil\\sisharpriborn.WebFormClientRil.csproj|d:\\users\\bsi80259\\butkemriborn\\external trainer\\sisharpribron\\sisharpriborn.webformclientril\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{05E64909-8E66-4263-81B3-FC5B37217F96}|sisharpriborn.WebFormClientRil\\sisharpriborn.WebFormClientRil.csproj|solutionrelative:sisharpriborn.webformclientril\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05E64909-8E66-4263-81B3-FC5B37217F96}|sisharpriborn.WebFormClientRil\\sisharpriborn.WebFormClientRil.csproj|d:\\users\\bsi80259\\butkemriborn\\external trainer\\sisharpribron\\sisharpriborn.webformclientril\\site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05E64909-8E66-4263-81B3-FC5B37217F96}|sisharpriborn.WebFormClientRil\\sisharpriborn.WebFormClientRil.csproj|solutionrelative:sisharpriborn.webformclientril\\site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05E64909-8E66-4263-81B3-FC5B37217F96}|sisharpriborn.WebFormClientRil\\sisharpriborn.WebFormClientRil.csproj|D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\sisharpriborn.webformclientril\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{05E64909-8E66-4263-81B3-FC5B37217F96}|sisharpriborn.WebFormClientRil\\sisharpriborn.WebFormClientRil.csproj|solutionrelative:sisharpriborn.webformclientril\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05E64909-8E66-4263-81B3-FC5B37217F96}|sisharpriborn.WebFormClientRil\\sisharpriborn.WebFormClientRil.csproj|D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\sisharpriborn.webformclientril\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05E64909-8E66-4263-81B3-FC5B37217F96}|sisharpriborn.WebFormClientRil\\sisharpriborn.WebFormClientRil.csproj|solutionrelative:sisharpriborn.webformclientril\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05E64909-8E66-4263-81B3-FC5B37217F96}|sisharpriborn.WebFormClientRil\\sisharpriborn.WebFormClientRil.csproj|D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\sisharpriborn.webformclientril\\models\\carupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05E64909-8E66-4263-81B3-FC5B37217F96}|sisharpriborn.WebFormClientRil\\sisharpriborn.WebFormClientRil.csproj|solutionrelative:sisharpriborn.webformclientril\\models\\carupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05E64909-8E66-4263-81B3-FC5B37217F96}|sisharpriborn.WebFormClientRil\\sisharpriborn.WebFormClientRil.csproj|D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\sisharpriborn.webformclientril\\models\\carinsert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05E64909-8E66-4263-81B3-FC5B37217F96}|sisharpriborn.WebFormClientRil\\sisharpriborn.WebFormClientRil.csproj|solutionrelative:sisharpriborn.webformclientril\\models\\carinsert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,22 +62,178 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IDealerCarBL.cs",
+              "DocumentMoniker": "D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\sisharpriborn.BL\\IDealerCarBL.cs",
+              "RelativeDocumentMoniker": "sisharpriborn.BL\\IDealerCarBL.cs",
+              "ToolTip": "D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\sisharpriborn.BL\\IDealerCarBL.cs",
+              "RelativeToolTip": "sisharpriborn.BL\\IDealerCarBL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T14:32:12.211Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FinalProjectContext.cs",
-              "DocumentMoniker": "D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\SampleASPMVCEF\\Models\\FinalProjectContext.cs",
-              "RelativeDocumentMoniker": "SampleASPMVCEF\\Models\\FinalProjectContext.cs",
-              "ToolTip": "D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\SampleASPMVCEF\\Models\\FinalProjectContext.cs",
-              "RelativeToolTip": "SampleASPMVCEF\\Models\\FinalProjectContext.cs",
+              "Title": "DealerCarBL.cs",
+              "DocumentMoniker": "D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\sisharpriborn.BL\\DealerCarBL.cs",
+              "RelativeDocumentMoniker": "sisharpriborn.BL\\DealerCarBL.cs",
+              "ToolTip": "D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\sisharpriborn.BL\\DealerCarBL.cs",
+              "RelativeToolTip": "sisharpriborn.BL\\DealerCarBL.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T02:51:55.224Z"
+              "WhenOpened": "2025-08-03T14:31:06.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\sisharpriborn.API\\Program.cs",
+              "RelativeDocumentMoniker": "sisharpriborn.API\\Program.cs",
+              "ToolTip": "D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\sisharpriborn.API\\Program.cs",
+              "RelativeToolTip": "sisharpriborn.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T14:25:04.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "packages.config",
+              "DocumentMoniker": "D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\sisharpriborn.WebFormClientRil\\packages.config",
+              "RelativeDocumentMoniker": "sisharpriborn.WebFormClientRil\\packages.config",
+              "ToolTip": "D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\sisharpriborn.WebFormClientRil\\packages.config",
+              "RelativeToolTip": "sisharpriborn.WebFormClientRil\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-08-03T14:22:40.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Site.Master",
+              "DocumentMoniker": "D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\sisharpriborn.WebFormClientRil\\Site.Master",
+              "RelativeDocumentMoniker": "sisharpriborn.WebFormClientRil\\Site.Master",
+              "ToolTip": "D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\sisharpriborn.WebFormClientRil\\Site.Master",
+              "RelativeToolTip": "sisharpriborn.WebFormClientRil\\Site.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-08-03T14:22:24.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Site.Master.cs",
+              "DocumentMoniker": "D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\sisharpriborn.WebFormClientRil\\Site.Master.cs",
+              "RelativeDocumentMoniker": "sisharpriborn.WebFormClientRil\\Site.Master.cs",
+              "ToolTip": "D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\sisharpriborn.WebFormClientRil\\Site.Master.cs",
+              "RelativeToolTip": "sisharpriborn.WebFormClientRil\\Site.Master.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T14:22:35.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Default.aspx.cs",
+              "DocumentMoniker": "D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\sisharpriborn.WebFormClientRil\\Default.aspx.cs",
+              "RelativeDocumentMoniker": "sisharpriborn.WebFormClientRil\\Default.aspx.cs",
+              "ToolTip": "D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\sisharpriborn.WebFormClientRil\\Default.aspx.cs",
+              "RelativeToolTip": "sisharpriborn.WebFormClientRil\\Default.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T09:59:41.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\sisharpriborn.WebFormClientRil\\Default.aspx",
+              "RelativeDocumentMoniker": "sisharpriborn.WebFormClientRil\\Default.aspx",
+              "ToolTip": "D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\sisharpriborn.WebFormClientRil\\Default.aspx",
+              "RelativeToolTip": "sisharpriborn.WebFormClientRil\\Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-08-01T09:45:03.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "sisharpriborn.API.http",
+              "DocumentMoniker": "D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\sisharpriborn.API\\sisharpriborn.API.http",
+              "RelativeDocumentMoniker": "sisharpriborn.API\\sisharpriborn.API.http",
+              "ToolTip": "D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\sisharpriborn.API\\sisharpriborn.API.http",
+              "RelativeToolTip": "sisharpriborn.API\\sisharpriborn.API.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-08-01T09:33:17.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CarsServices.cs",
+              "DocumentMoniker": "D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\sisharpriborn.WebFormClientRil\\Services\\CarsServices.cs",
+              "RelativeDocumentMoniker": "sisharpriborn.WebFormClientRil\\Services\\CarsServices.cs",
+              "ToolTip": "D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\sisharpriborn.WebFormClientRil\\Services\\CarsServices.cs",
+              "RelativeToolTip": "sisharpriborn.WebFormClientRil\\Services\\CarsServices.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBQAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T09:30:06.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CarUpdate.cs",
+              "DocumentMoniker": "D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\sisharpriborn.WebFormClientRil\\Models\\CarUpdate.cs",
+              "RelativeDocumentMoniker": "sisharpriborn.WebFormClientRil\\Models\\CarUpdate.cs",
+              "ToolTip": "D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\sisharpriborn.WebFormClientRil\\Models\\CarUpdate.cs",
+              "RelativeToolTip": "sisharpriborn.WebFormClientRil\\Models\\CarUpdate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T09:25:42.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Car.cs",
+              "DocumentMoniker": "D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\sisharpriborn.WebFormClientRil\\Models\\Car.cs",
+              "RelativeDocumentMoniker": "sisharpriborn.WebFormClientRil\\Models\\Car.cs",
+              "ToolTip": "D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\sisharpriborn.WebFormClientRil\\Models\\Car.cs",
+              "RelativeToolTip": "sisharpriborn.WebFormClientRil\\Models\\Car.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T09:25:08.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CarInsert.cs",
+              "DocumentMoniker": "D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\sisharpriborn.WebFormClientRil\\Models\\CarInsert.cs",
+              "RelativeDocumentMoniker": "sisharpriborn.WebFormClientRil\\Models\\CarInsert.cs",
+              "ToolTip": "D:\\Users\\bsi80259\\butkemriborn\\External Trainer\\sisharpribron\\sisharpriborn.WebFormClientRil\\Models\\CarInsert.cs",
+              "RelativeToolTip": "sisharpriborn.WebFormClientRil\\Models\\CarInsert.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T09:25:23.773Z"
             }
           ]
         }
