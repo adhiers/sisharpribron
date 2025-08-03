@@ -1,3 +1,9 @@
+D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.BL\obj\Debug\net9.0\sisharpriborn.BL.csproj.AssemblyReference.cache
+D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.BL\obj\Debug\net9.0\sisharpriborn.BL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.BL\obj\Debug\net9.0\sisharpriborn.BL.AssemblyInfoInputs.cache
+D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.BL\obj\Debug\net9.0\sisharpriborn.BL.AssemblyInfo.cs
+D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.BL\obj\Debug\net9.0\sisharpriborn.BL.csproj.CoreCompileInputs.cache
+D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.BL\obj\Debug\net9.0\sisharpriborn.BL.sourcelink.json
 D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.BL\bin\Debug\net9.0\sisharpriborn.BL.deps.json
 D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.BL\bin\Debug\net9.0\sisharpriborn.BL.dll
 D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.BL\bin\Debug\net9.0\sisharpriborn.BL.pdb
@@ -5,12 +11,6 @@ D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.BL\b
 D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.BL\bin\Debug\net9.0\sisharpriborn.DAL.dll
 D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.BL\bin\Debug\net9.0\sisharpriborn.BO.pdb
 D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.BL\bin\Debug\net9.0\sisharpriborn.DAL.pdb
-D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.BL\obj\Debug\net9.0\sisharpriborn.BL.csproj.AssemblyReference.cache
-D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.BL\obj\Debug\net9.0\sisharpriborn.BL.GeneratedMSBuildEditorConfig.editorconfig
-D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.BL\obj\Debug\net9.0\sisharpriborn.BL.AssemblyInfoInputs.cache
-D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.BL\obj\Debug\net9.0\sisharpriborn.BL.AssemblyInfo.cs
-D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.BL\obj\Debug\net9.0\sisharpriborn.BL.csproj.CoreCompileInputs.cache
-D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.BL\obj\Debug\net9.0\sisharpriborn.BL.sourcelink.json
 D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.BL\obj\Debug\net9.0\sisharpr.8A0463F6.Up2Date
 D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.BL\obj\Debug\net9.0\sisharpriborn.BL.dll
 D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.BL\obj\Debug\net9.0\refint\sisharpriborn.BL.dll

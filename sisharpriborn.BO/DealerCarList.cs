@@ -17,11 +17,10 @@ public partial class DealerCarList
 
     public double DealerCarPrice { get; set; }
 
-    public virtual ICollection<Agreement> Agreements { get; set; } = new List<Agreement>();
-
     public virtual Car Car { get; set; }
 
     public virtual Dealer Dealer { get; set; }
+    public virtual ICollection<Agreement> Agreements { get; set; } = new List<Agreement>();
 
     public virtual ICollection<LetterOfIntent> LetterOfIntents { get; set; } = new List<LetterOfIntent>();
 
