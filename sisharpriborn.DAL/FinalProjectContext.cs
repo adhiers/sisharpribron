@@ -4,14 +4,20 @@ using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using sisharpriborn.BO;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace sisharpriborn.DAL;
 
-public partial class FinalProjectContext : DbContext
+public partial class FinalProjectContext : IdentityDbContext //DbContext
 {
     public FinalProjectContext(DbContextOptions<FinalProjectContext> options)
         : base(options)
     {
+    }
+
+    public FinalProjectContext()
+    {
+
     }
 
     public virtual DbSet<Agreement> Agreements { get; set; }
@@ -42,8 +48,18 @@ public partial class FinalProjectContext : DbContext
 
     public virtual DbSet<WarrantyClaim> WarrantyClaims { get; set; }
 
+    //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    //{
+    //    base.OnConfiguring(optionsBuilder);
+    //    if (!optionsBuilder.IsConfigured)
+    //    {
+    //        optionsBuilder.UseSqlServer("Data Source=.\\;Initial Catalog=FinalProjectRilil;User ID=sa;Password=Laripagisql65;TrustServerCertificate=True");
+    //    }
+    //}
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        base.OnModelCreating(modelBuilder);
         modelBuilder.Entity<Agreement>(entity =>
         {
             entity.HasKey(e => e.AgreementId).HasName("PK__Agreemen__0A3082C37867AFCC");

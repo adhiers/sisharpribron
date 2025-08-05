@@ -34,6 +34,7 @@ namespace sisharpriborn.WebFormClientRil
             txtModelType.Text = string.Empty;
             txtFuelType.Text = string.Empty;
             txtBasePrice.Text = string.Empty;
+            txtCarId.Focus();
 
             btnAdd.Enabled = false;
         }
@@ -91,7 +92,7 @@ namespace sisharpriborn.WebFormClientRil
                         VIN = txtVIN.Text,
                         ModelType = txtModelType.Text,
                         FuelType = txtFuelType.Text,
-                        BasePrice = Convert.ToDouble(txtBasePrice.Text),
+                        BasePrice = Convert.ToDouble(txtBasePrice.Text)
                     };
                     var result = await _carsService.UpdateCar(updateCar);
                     ltMessage.Text = $"<span class='alert alert-success'>Update Car {result.VIN} success !</span>";

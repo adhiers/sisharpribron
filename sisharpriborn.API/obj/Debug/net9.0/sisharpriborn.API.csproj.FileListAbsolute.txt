@@ -171,3 +171,9 @@ D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.API\
 D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.API\obj\Debug\net9.0\sisharpriborn.API.genruntimeconfig.cache
 D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.API\obj\Debug\net9.0\ref\sisharpriborn.API.dll
 D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.API\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.API\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.API\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.API\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.API\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.API\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
+D:\Users\bsi80259\butkemriborn\External Trainer\sisharpribron\sisharpriborn.API\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll

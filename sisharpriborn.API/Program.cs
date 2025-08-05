@@ -14,9 +14,9 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 // Add services to the container.
 
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddDbContext<FinalProjectContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("FinalProjectConnectionString")));   
+//// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
+//builder.Services.AddDbContext<FinalProjectContext>(options =>
+//    options.UseSqlServer(builder.Configuration.GetConnectionString("FinalProjectConnectionString")));   
 
 builder.Services.AddBusinessLayerServices();
 

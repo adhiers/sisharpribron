@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "sisharpriborn.API\\sisharpriborn.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "sisharpriborn.WebFormClientRil\\sisharpriborn.WebFormClientRil.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
